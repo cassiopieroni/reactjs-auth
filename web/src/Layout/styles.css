@@ -1,0 +1,39 @@
+.layout {
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.layout header {
+
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.layout header div a {
+
+    margin: 8px;
+}
+
+.layout main {
+
+    height: 100%;
+    padding: 100px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.layout main h1, .layout main h2, .layout main p {
+
+    text-align: center;
+    margin: 8px;
+}
+
+.layout main button {
+
+    padding: 8px 16px;
+    text-align: center;
+    margin: 8px auto;
+}
