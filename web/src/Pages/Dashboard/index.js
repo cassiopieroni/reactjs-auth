@@ -5,7 +5,7 @@ const Dashboard = () => {
 
     return (
         <div>
-            <h1>Dashboard</h1>
+            <h1>Dashboard Page</h1>
             <p>Private route</p>
         </div>
     );

@@ -17,7 +17,7 @@ const User = () => {
     if (loading) {
         return (
             <>
-                <h1>User</h1>
+                <h1>User page</h1>
                 <h2>{ user.name }</h2>
                 <SomeSpinner/>
             </>

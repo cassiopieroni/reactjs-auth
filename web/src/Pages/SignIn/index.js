@@ -18,10 +18,10 @@ const SignIn = () => {
     
     if (loading) {
         return (
-            <>
-                <h1>SignIn</h1>
+            <div className='loading'>
+                <h1>SignIn Page</h1>
                 <SomeSpinner/>
-            </>
+            </div>
         )    
     }
 
@@ -33,7 +33,7 @@ const SignIn = () => {
                 <Redirect to='./user' />
             ) : (
                 <>
-                    <h1>SignIn</h1>
+                    <h1>SignIn Page</h1>
                     <button onClick={ handleSignIn } >Sign in</button>
                 </>
             )}

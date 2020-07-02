@@ -36,4 +36,11 @@
     padding: 8px 16px;
     text-align: center;
     margin: 8px auto;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.layout main .loading {
+    display: flex;
+    flex-direction: column;
 }
