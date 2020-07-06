@@ -2,12 +2,15 @@ import React from 'react';
 import { Redirect, Route } from 'react-router-dom';
 import useAuth from '../hooks/useAuth';
 
+import SomeSpinner from '../components/SomeSpinner';
+
+
 const PrivateRoute = ({ component: Component, ...props }) => {
 
     const { signed, loading } = useAuth();
 
     if (loading) {
-        return <h1>Loading...</h1>
+        return <SomeSpinner />
     }
 
     return (
